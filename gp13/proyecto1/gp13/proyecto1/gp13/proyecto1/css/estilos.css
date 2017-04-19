@@ -1,0 +1,100 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #EAECEC;
+	font-family: arial;
+
+}
+header{
+	width: 90%;
+	background: #F3EDA5;
+	margin: 0 auto;
+}
+header h1{
+	width: 25%;
+	padding: 0.6em 0.5em;
+	color: #6D6A4D;
+	text-shadow: 1px 2px 3px #47463A;
+}
+header nav{
+	width: 70%;
+	text-align:  right;
+}
+header h1, header nav{
+display: inline-block;
+}
+header nav a{
+	text-decoration: none;
+	padding: 0.3em 0.7em;
+	color: #47463A;
+	text-shadow: 1px 2px 3px #C5A628;
+	font-weight: bold;
+}
+header nav a:hover{
+	background: #5787DA;
+	color: #fff;
+	border: solid 1px #fff;
+}
+footer{
+	width: 100%;
+	background: #000;
+	color: #B44E4E;
+	text-align: center;
+	padding: 2em 0em;
+}
+footer a{
+	color: #ECF552;
+	text-decoration: none;
+}
+footer a:hover{
+	background: #fff;
+	color: #000;
+	border: 3em 2em;
+	border:solid 1px #000;
+
+}
+
+section.galeria{
+	width: 90%;
+	margin: 0 auto;
+	<!--height: 0px;-->
+}
+section.galeria img{
+	width: 100%;
+
+}
+section #content img{
+	width: 100%;
+	border: 1px #000 solid;
+	padding: 3px;
+}
+.imgmodulos{
+	border-radius: 4em;
+	width: 90%;
+	box-shadow: 3px 3px 4px #333;
+
+}
+main{
+	width: 90%;
+	margin: 0 auto;
+	background: #fff;
+}
+main aside{
+	width: 20%;
+	margin: 0.5em 0.5em;
+}
+main section.contenedor{
+	width: 70%;
+}
+
+main section #content{
+	background: #f2f2f2;
+	width: 70%;
+}
+main aside, main section{
+	display: inline-block;
+	vertical-align: top;
+}
+
