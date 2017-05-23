@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cooperativa Padre Julian Lorente</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+<header>
+		
+		<nav>
+			<section>
+			<img src="../images/logo_lorente.png" class = "logotipo">
+			</section>
+			<a href="../index.html">Inicio </a>
+			<a href="bancaPersonal.html">BancaPersonal</a>
+			<a href="bancaEmpresarial.html">Banca Empresarial</a>
+			<a href="educacionFinanciera.html">Educacion Financiera</a>
+			<a href="Inversion.html">Inversion</a>
+			<a href="buscador.html"><span class="icon-search buscador"></span></a>
+		</nav>
+	</header>
+	<section class= "galeria">
+		<img src="../images/microcredito.jpg" title="micro credito"
+		description="sin garante microcredito">
+	</section>
+	<main>
+		<aside>
+			<h2>FICHA DE REGISTROS</h2>
+			<p><br>Ficha para registro de los participantes</p></br>
+			<form method="post" name="formulario1" action="datos.php">
+				<fieldset><legend>Perfil</legend>
+					<div class="datos">
+						<label for="nombres">Nombres:</label>
+						<input type="text" name="nombres" placeholder="nombres" required="">
+					</div>
+					<div class="datos">
+						<label for="apellidos">Apellidos:</label>
+						<input type="text" name="apellidos" placeholder="apellidos" required="">
+					</div>
+					<div class="datos">
+						<label for="cedula">Cedula: </label>
+						<input type="number" name="cedula" placeholder="ingrese su cedula" required="">
+					</div>
+					<div class="datos">
+						<label for="correo">Correo:</label>
+						<input type="email" name="correo" placeholder="correo@gmail.com" required="">
+					</div>
+					<div class="datos">
+						<label for="fechanacimiento">Fecha de nacimiento:</label>
+						<input type="date" name="fechanacimiento">
+					</div>
+				</fieldset>
+				<fieldset><legend>Cursos</legend>
+					<div class="datos">
+						<label for="ciclo">Ciclo:</label><br>
+						<input type="range" min="1" max="10" name="ciclo">
+					</div>
+					<div class="datos">
+						<label for="tipo">Tipo de Participante:</label><br/>
+						<input type="radio" name="tipopop" value="1" >Estudiante<br>
+						<input type="radio" name="tipopop" value="2" >Docente<br>
+						<input type="radio" name="tipopop" value="3" >Externo<br>
+					</div>
+					<div class="datos">
+						<label for="tipo">Cursos:</label><br>
+						<select>
+							<option value="volvo">-------</option>
+	  						<option value="volvo">Android</option>
+	  						<option value="saab">Python</option>
+						</select>
+					</div>
+				</fieldset>
+				<br><input type="submit" name="guardar" value="Guardar datos">
+			</form>
+		</aside>
+		<section class="contenedor">
+			<section id="content">
+				<h3>SERVICIOS</h3><br>
+				<a href="../index.html"><span class="icon-home"></span></a>
+				<a href="bancaPersonal.html"><span class="icon-display"></span></a>
+				<a href="buscador.html"></span><span class="icon-search"></span></a>
+				<a href="bancaEmpresarial.html"><span class="icon-coin-dollar"></a>
+				<a href="contacto.html"><span class="icon-phone"></span></a>
+				<a href="educacionFinanciera.html"><span class="icon-folder"></span></a>
+				<a href="portafolio.html"><span class="icon-library"></span></a>
+				<a href="simuladores.html"><span class="icon-credit-card"></span></a>
+			</section>
+			<section class= "galeria">
+				<img src="../images/microcredito.jpg" title="micro credito"
+				description="sin garante microcredito">
+			</section>
+		</section>
+	</main>
+	<section class= "banner">
+		<img src="../images/banner1.jpg" title="banner"
+		description="banner">
+		<img src="../images/banner1.jpg" title="banner"
+		description="banner">
+		<img src="../images/banner1.jpg" title="banner"
+		description="banner">
+	</section>
+	<footer>
+		<section class= "redes">
+				<a href=""><span class="icon-facebook2"></span></a>
+				<a href=""><span class="icon-instagram"></span></a>
+				<a href=""><span class="icon-twitter"></span></a>
+		</section>
+		<section class= "servicios">
+			<h3>SERVICIOS</h3><br><hr /><br>
+			<a href=""><span class="icon-facebook2"></span></a>
+			<a href=""><span class="icon-instagram"></span></a>
+			<a href=""><span class="icon-twitter"></span></a>
+		</section>
+		<section class= "links">
+			<h3>LINKS</h3><br><hr /><br>
+			<a href="superintendecia.html">SUPERINTENDENCIA</a>
+			<a href="simuladores.html">SIMULADORES</span></a><br>
+			<a href="portafolio.html">PORTAFOLIO</span></a><br>
+			<a href="contacto.html">CONTACTO</span></a><br>
+			<a href="educacionFinanciera.html">EDUCACION</span></a><br>
+		</section>
+		<div class= "contacto">
+			<h3>CONTACTO</h3><hr /><br>
+			<p>Mercadillo, entre olmedo y_</p>
+			<p>Loja, Ecuador</p>
+			<p>(593-7)3701600</p>
+			<p>casilla #11.01.30</p>
+			<p>Código SWIFT LOJBECEL</p>
+			<p>info@lorente.fin.ec</p>
+		</div>
+
+	</footer>
+</body>
+</html>

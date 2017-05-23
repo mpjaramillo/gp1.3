@@ -1,0 +1,156 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+}
+body{
+	background: #ffffff;
+}
+header{
+	width: 90%;
+	background: #fff;
+	margin: 0 auto;
+}
+header nav{
+	display: inline-block;
+	width: 100%;
+	padding: 0em 0em;
+	font-family: arial;
+	background: #BDBDBD;
+}
+ header nav a{
+	width: 100%;
+	text-decoration: none;
+	color:#045FB4;
+	padding: 1em 1em;
+	font-size: 1.2em;
+}
+ header nav a:hover{
+	width: 90%;
+	text-decoration: none;
+	color:#fff;
+	background: #2E64FE;
+	border-bottom: solid yellow;
+}
+
+ header section{
+ 	width: 100%;
+ } 
+ .logotipo{
+	width: 25%;
+	float: left;
+
+}
+section{
+	width: 100%;
+}
+.galeria img{
+	width: 90%;
+	margin: 0 auto;
+	padding: 1em 4em;
+}
+main{
+	width: 90%;
+	margin: 0 auto;
+}
+main aside{
+	width: 45%;
+	display: inline-block;
+}
+main aside img{
+	width: 30%;
+	float: left;
+}
+main aside p{
+	vertical-align: top;
+	padding: 0em 1em;
+}
+h3{
+	color: #BDBDBD;
+}
+main aside h2{
+	color: #2E64FE;
+}
+main section.contenedor{
+	width: 45%;
+	display: inline-block;
+	padding: 1em 0.7em;
+}
+#content a{
+	font-size: 3em;
+	text-decoration: none;
+	padding: 0em 0.8em;
+	color: #DBA901;
+}
+#content a:hover{
+	color: #fff;
+	background: #DBA901;
+}
+.banner{
+	background: #F3F781;
+	width: 90%;
+	margin: 0 auto;
+}
+.banner img{
+	width: 30%;
+	padding: 2em 1em;
+}
+
+<--.buscador{
+	font-size: 2em;
+}-->
+footer{
+	width: 90%;
+	padding: 1em 0em;
+	margin: 0 auto;
+	background: #ffffff url("../images/piePagina.jpg") repeat right top;
+}
+footer section{
+	padding: 0em 0.5em;
+	float: left;
+}
+
+footer section.redes{
+	width: 20%;
+	display: inline-block;
+	margin: 0 auto;
+}
+footer section.redes a {
+	width: 10%;
+	text-decoration: none;
+	font-size: 2em;
+	color: #b6b6b6;
+	padding: 1em 0.5em;
+}
+footer section.servicios{
+	width: 25%;
+	display: inline-block;
+	padding: 0em 1em;
+}
+footer section.servicios a {
+	width: 20%;
+	text-decoration: none;
+	font-size: 2em;
+	color: #b6b6b6;
+	padding: 2em 1em;
+	
+}
+footer section.links{
+	width: 20%;
+	display: inline-block;
+}
+footer section.links a {
+	width: 10%;
+	text-decoration: none;
+	color: #b6b6b6;
+	padding: 3em 1em;
+}
+footer div.contacto {
+	width: 10%;
+	display: inline-block;
+	padding: 0em 3em;
+	color: #b6b6b6;
+}
+
+
+

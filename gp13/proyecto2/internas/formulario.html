@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Proyecto 2 Formularios</title>
+	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<header>
+		<h1>Ingeniería de Software 2017</h1>
+	</header>
+	<nav>
+		
+		<a href="../index.html">Home</a>
+		<a href="ponentes.html">Ponentes</a>
+		<a href="agenda.html">Agenda</a>
+		<a href="formulario.html">Formularios</a>
+		<a href="contactos.html">Contactos</a>
+	</nav>
+	<main>
+		<section>
+			<h2>FICHA DE REGISTROS</h2>
+			<p><br>Ficha para registro de los participantes</p></br>
+			<form method="post" name="formulario1" action="datos.php">
+				<div class="datos">
+					<label for="nombres">Nombres:</label>
+					<input type="text" name="nombres" placeholder="nombres" required="">
+				</div>
+				<div class="datos">
+					<label for="apellidos">Apellidos:</label>
+					<input type="text" name="apellidos" placeholder="apellidos" required="">
+				</div>
+				<div class="datos">
+					<label for="cedula">Cedula: </label>
+					<input type="number" name="cedula" placeholder="ingrese su cedula" required="">
+				</div>
+				<div class="datos">
+					<label for="correo">Correo:</label>
+					<input type="email" name="correo" placeholder="correo@gmail.com" required="">
+				</div>
+				<div class="datos">
+					<label for="fechanacimiento">Fecha de nacimiento:</label>
+					<input type="date" name="fechanacimiento">
+				</div>
+				<div class="datos">
+					<label for="ciclo">Ciclo:</label><br>
+					<input type="range" min="1" max="10" name="ciclo">
+				</div>
+				<div class="datos">
+					<label for="tipo">Tipo de Participante:</label>
+					<input type="radio" name="tipopop" value="1" >Estudiante<br>
+					<input type="radio" name="tipopop" value="2" >Docente<br>
+					<input type="radio" name="tipopop" value="3" >Externo<br>
+				</div>
+				<div class="datos">
+					<label for="tipo">Cursos:</label><br>
+					<select>
+						<option value="volvo">-------</option>
+  						<option value="volvo">Android</option>
+  						<option value="saab">Python</option>
+					</select>
+				</div>
+				<br><input type="submit" name="guardar" value="Guardar datos">
+			</form>
+		</section>
+	</main>
+	<footer>
+		Derechos reservados <a href="">UTPL</a>
+	</footer>
+</body>
+</html>>

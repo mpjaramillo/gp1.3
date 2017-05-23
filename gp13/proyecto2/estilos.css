@@ -1,0 +1,73 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #6E6E6E;
+	font-family: arial;
+
+}
+header,nav,main,footer{
+	width: 90%;
+	margin: 0 auto;
+	background: #f3f3f3;
+}
+header h1{
+	padding: 1em 1em;
+	color: #2E2EFE;
+	text-shadow: 3px 3px 4px #333;
+}
+nav{
+	text-align: center;
+	background: #2E2E2E;
+	padding: 0.3em 0em;
+}
+nav a{
+	text-decoration: none;
+	padding: 0.3em 0.7em;
+	color: #ffffff;
+}
+nav a:hover{
+	background: blue;
+
+}
+main{
+	padding: 5em 0em;
+	text-align: justify;
+}
+main h2{
+	padding: 0.5em 0em;
+}
+.datos label{
+	align-items: center;
+	display: block;
+	display: 1em 0;
+}
+.datos input{
+	padding: 0.3em;
+	color: blue;
+	width: 50%;
+}
+.datos input[type= radio]{
+	width: 3%;
+}
+main section form input[type = submit] {
+	color: blue;
+	border-radius: 5px;
+}
+footer{
+	width: 100%;
+	background: #8181F7;
+	padding: 0.5em 0em;
+	text-align: center;
+	color: #EFF5FB;
+}
+footer a{
+	text-decoration: none;
+	color: #5F04B4;
+}
+footer a:hover{
+	background: #5F04B4;
+	color: #fff;
+
+}
